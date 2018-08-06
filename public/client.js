@@ -19,7 +19,7 @@ $("form").submit(function() {
     'msg':msg ,
     'date': date
   }
-  socket.emit("messages", message);
+  socket.emit("rtdata", message);
   this.reset();
   return false;
 });
