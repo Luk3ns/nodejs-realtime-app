@@ -1,23 +1,21 @@
 <html>
-<head>
-<title>Real time chat</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <h1> Chat! </h1>
-        <form>
-            <input id="message" type="text" placeholder="message">
-            <input type="submit" value="Send">
-        </form>
-
-        <ul id="thread"></ul>
-
+  <head>
+    <title>Real time application - cursor position</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>RTA - Cursor position</h1>
+      <input v-model="name" name="name" placeholder="name">
+      <div class="cursor" id="cursor-you">{{name}}</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
+    <script src="client.js"></script> 
+    <script>
       
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
-        <script src="client.js"></script>  
-    </body>
- </html> 
+    </script> 
+  </body>
+</html> 
