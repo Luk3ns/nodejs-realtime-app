@@ -1,5 +1,5 @@
 var express = require("express");
-var app = express();
+var app = express(); //express init
 var server = require("http").createServer(app);
 var io = require("socket.io")(server);
 
@@ -7,7 +7,8 @@ var io = require("socket.io")(server);
 //  res.sendFile(__dirname + "/public/index.html");
 //});
 
-app.use(express.static("public"));
+//Serving static files in Express
+app.use(express.static("public")); 
 
 io.on("connection", function(client) {
   console.log("Client connected...");
@@ -16,7 +17,7 @@ io.on("connection", function(client) {
     console.log(data);
   });
 
-  client.on("messages", function(data) {
+  client.on("rtdata", function(data) {
     client.emit("thread", data);
     client.broadcast.emit("thread", data);
   });
