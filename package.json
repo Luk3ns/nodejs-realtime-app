@@ -1,6 +1,39 @@
 {
-  "name": "socket-chat-example",
+  "name": "nodejs-realtime-app",
+  "description": "simple RTA",
   "version": "0.0.1",
-  "description": "my first socket.io app",
-  "dependencies": {}
+  "keywords": [
+    "node.js",
+    "socket.io",
+    "express",
+    "vue.js"
+  ],
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "web": ""
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Łukasz Śpiewak",
+      "email": "lukens@lukens.pl",
+      "web": "lukens.pl"
+    }
+  ],
+  "demos": [
+    ""
+  ],
+  "dependencies": {
+    "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js": "2.1.1",
+    "https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js": "2.5.17",
+    "https://code.jquery.com/jquery-3.1.1.min.js": "3.1.1"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Luk3ns/nodejs-realtime-app.git"
+    }
+  ]
 }
