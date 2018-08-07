@@ -1,11 +1,3 @@
-
-
-// initializing socket, connection to server
-var socket = io.connect("http://lukens.usermd.net");
-socket.on("connect", function(data) {
-  socket.emit("join", "Hello server from client");
-});
-
 var vue = new Vue({
   el: '#app',
   data: {
@@ -13,8 +5,13 @@ var vue = new Vue({
     msg: ''
   }
 })
-    
-console.log(vue);
+
+// initializing socket, connection to server
+var socket = io.connect("http://lukens.usermd.net");
+socket.on("connect", function(data) {
+  socket.emit("join", "Hello server from client");
+});
+
 // listener for 'thread' event, which updates messages
 socket.on("thread", function(data) {
   var id = data.id;
