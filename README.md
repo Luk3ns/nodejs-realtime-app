@@ -2,11 +2,7 @@
 
 [![nodejs](http://repo.pbox.me/1.0/nodejs-portable/icon.png)](https://nodejs.org/en/)
 
-Simple real-time app (RTA), uses:
-
-  - node.js
-  - socket.io
-  - vue.js
+Simple real-time app (RTA), preview cursor position all connected client.
 
 # Features
 
@@ -23,6 +19,7 @@ Project uses a number of open source projects to work properly:
 
 * [Vue.js] - great UI JavaScript framework for building user interface
 * [node.js] - evented I/O for the backend
+* [socket.io] - JavaScript library for realtime web applications
 * [Express] - fast node.js network app framework [@tjholowaychuk]
 * [jQuery] - duh
 
@@ -36,11 +33,6 @@ Install the dependencies and devDependencies and start the server.
 $ cd project-folder
 $ node app
 ```
-
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
 
 License
 ----
