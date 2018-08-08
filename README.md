@@ -21,7 +21,7 @@ TODO:
 
 Project uses a number of open source projects to work properly:
 
-* [Vue.sj] - great UI JavaScript framework for building user interface
+* [Vue.js] - great UI JavaScript framework for building user interface
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework [@tjholowaychuk]
 * [jQuery] - duh
