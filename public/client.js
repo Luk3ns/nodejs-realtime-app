@@ -26,8 +26,8 @@ $( document ).on( "mousemove", function( event ) {
   var cursorXY = {
     'id': socket.id,
     'name': vue.name,
-    'x': event.pageX+10,
-    'y': event.pageY+10
+    'x': event.pageX+15,
+    'y': event.pageY+15
   }
   if(socket.id && socket.id!="undefined")
   socket.emit("rtdata", cursorXY);
