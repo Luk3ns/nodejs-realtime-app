@@ -7,7 +7,7 @@ var vue = new Vue({
 })
 
 // initializing socket, connection to server
-var socket = io.connect("http://lukens.usermd.net");
+var socket = io.connect("http://server.address");
 socket.on("connect", function(data) {
   socket.emit("join", "Hello server from client");
 });
