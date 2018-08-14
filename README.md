@@ -12,6 +12,8 @@ Simple real-time app (RTA), preview cursor position all connected client.
 
 TODO:
   - more interactions
+  - more interactions
+  - more interactions
 
 ### Technologies
 
