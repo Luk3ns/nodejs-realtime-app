@@ -23,7 +23,7 @@ Project uses a number of open source projects to work properly:
 * [node.js] - evented I/O for the backend
 * [socket.io] - JavaScript library for realtime web applications
 * [Express] - fast node.js network app framework [@tjholowaychuk]
-* [jQuery] - duh
+* [jQuery] - duh...
 
 ### Installation
 
