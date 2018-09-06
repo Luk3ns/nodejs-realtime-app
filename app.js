@@ -3,7 +3,7 @@ var app = express(); //express init
 var server = require("http").createServer(app);
 var io = require("socket.io")(server);
 
-//Serving static files in Express
+//Serving static files in Express 
 app.use(express.static("public")); 
 
 io.on("connection", function(client) {
