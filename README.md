@@ -36,7 +36,7 @@ $ cd project-folder
 $ node app
 ```
 
-License
+###License
 ----
 
 MIT
