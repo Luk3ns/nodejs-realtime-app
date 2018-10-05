@@ -1,4 +1,4 @@
-# nodejs-realtime-app
+# NodeJs Realtime Applicaton
 
 [![nodejs](http://repo.pbox.me/1.0/nodejs-portable/icon.png)](https://nodejs.org/en/)
 
