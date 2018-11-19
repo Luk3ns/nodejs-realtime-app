@@ -21,7 +21,7 @@ socket.on("thread", function(data) {
   el.css('top',data.y);
 });
 
-// sends message to server, resets & prevents default form action
+// sends message to server
 $( document ).on( "mousemove", function( event ) {
   var cursorXY = {
     'id': socket.id,
@@ -43,6 +43,7 @@ function cursorLabel(id,name) {
   return element;
 }
 
+//random color
 function randomColor(){
   var r = random(0,255);
   var g = random(0,255);
